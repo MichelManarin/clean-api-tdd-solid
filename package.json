@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "NodeJs Rest API using TDD, Clean Architecture and Typescript",
   "scripts": {
-    "build": "rimraf dist && tsc -p tsconfig-build.json",
+    "build": "tsc",
     "build:watch": "rimraf dist && tsc -p tsconfig-build.json -w",
     "start": "node dist/main/server.js",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
