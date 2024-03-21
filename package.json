@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "NodeJs Rest API using TDD, Clean Architecture and Typescript",
   "scripts": {
-    "start": "npx sucrase src/main/server.ts",
+    "start": "npx sucrase src/main/server.ts --transforms typescript --out-dir ../../dist",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
