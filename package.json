@@ -5,7 +5,7 @@
   "scripts": {
     "build": "tsc",
     "build:watch": "rimraf dist && tsc -p tsconfig-build.json -w",
-    "start": "node dist/main/server.js",
+    "start": "npm run build && node dist/main/server.js",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
     "test:verbose": "jest --passWithNoTests --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
