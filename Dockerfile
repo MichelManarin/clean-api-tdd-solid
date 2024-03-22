@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:16.20.2
 WORKDIR /usr/src/estudos-api
 COPY package*.json ./
 RUN npm install
