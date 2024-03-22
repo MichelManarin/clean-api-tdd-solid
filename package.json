@@ -27,7 +27,7 @@
     "@types/mongodb": "3.3.14",
     "@types/node": "13.1.6",
     "@types/nodemailer": "^6.4.8",
-    "@types/superagent": "^4.1.14",
+    "@types/superagent": "4.1.14",
     "@types/supertest": "2.0.8",
     "@types/validator": "12.0.1",
     "@typescript-eslint/eslint-plugin": "2.16.0",
